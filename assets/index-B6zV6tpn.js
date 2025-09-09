@@ -129,4 +129,4 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   &:hover {
     transform: scale(1.05);
   }
-`,hp=()=>ce.jsxs(sp,{children:["🌌 Welcome to the Metalens demo",ce.jsx(dp,{src:op,alt:"Metalens"})]});function mp(){return ce.jsxs(R1,{children:[ce.jsx(Er,{path:"/",element:ce.jsx(rp,{})}),ce.jsx(Er,{path:"/metalens",element:ce.jsx(hp,{})})]})}Hv.createRoot(document.getElementById("root")).render(ce.jsx($a.StrictMode,{children:ce.jsx(J1,{children:ce.jsx(mp,{})})}));
+`,hp=()=>ce.jsxs(sp,{children:["🌌 Welcome to the metalens demo",ce.jsx(dp,{src:op,alt:"Metalens"})]});function mp(){return ce.jsxs(R1,{children:[ce.jsx(Er,{path:"/",element:ce.jsx(rp,{})}),ce.jsx(Er,{path:"/metalens",element:ce.jsx(hp,{})})]})}Hv.createRoot(document.getElementById("root")).render(ce.jsx($a.StrictMode,{children:ce.jsx(J1,{children:ce.jsx(mp,{})})}));
