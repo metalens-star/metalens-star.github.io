@@ -97,7 +97,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   }
 
   &:hover {
-    color: #553fb7;
+    color: #00c6ff;
   }
 `;function h1(){const[u,c]=M.useState("home"),f=r=>{const d=document.getElementById(r);d&&d.scrollIntoView({behavior:"smooth"})};return M.useEffect(()=>{const r=["home","description","setup","method","results","contact"];let d=null;const h=()=>{d&&clearTimeout(d),d=window.setTimeout(()=>{const y=window.scrollY+window.innerHeight/2;for(let E=0;E<r.length;E++){const g=document.getElementById(r[E]);if(!g)continue;const m=g.offsetTop,S=g.offsetHeight;if(y>=m&&y<m+S){c(r[E]);break}}},50)};return window.addEventListener("scroll",h),h(),()=>{window.removeEventListener("scroll",h),d&&clearTimeout(d)}},[]),z.jsxs(o1,{children:[z.jsx(s1,{onClick:()=>f("home"),children:"MetaLenStar"}),z.jsxs(d1,{children:[z.jsx(Ka,{active:u==="home",onClick:()=>f("home"),children:"Home"}),z.jsx(Ka,{active:u==="description",onClick:()=>f("description"),children:"Introduction"}),z.jsx(Ka,{active:u==="setup",onClick:()=>f("setup"),children:"Setup"}),z.jsx(Ka,{active:u==="method",onClick:()=>f("method"),children:"Method"}),z.jsx(Ka,{active:u==="results",onClick:()=>f("results"),children:"Results"}),z.jsx(Ka,{active:u==="contact",onClick:()=>f("contact"),children:"Contact Us"})]})]})}const m1="/assets/home_new-BfGuZ8fU.png",v1=Ii`
   0% { box-shadow: 0 0 0 0 rgba(0, 198, 255, 0.7); }
